@@ -1,0 +1,6 @@
+<div class="card" [class.flipped]="card?.flipped" (click)="onClick()">
+    <div class="card-inner">
+        <div class="card-front">🎄</div>
+        <div class="card-back">{{ card?.symbol }}</div>
+    </div>
+</div>

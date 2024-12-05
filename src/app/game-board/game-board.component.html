@@ -1,0 +1,3 @@
+<div class="game-board" [style.gridTemplateColumns]="'repeat(' + gridSize + ', 1fr)'">
+    <app-card *ngFor="let card of cards" [card]="card" (click)="handleCardClick(card)"></app-card>
+</div>

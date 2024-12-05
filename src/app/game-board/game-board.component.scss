@@ -1,0 +1,16 @@
+.game-board {
+    display: grid;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 90%;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    .game-board {
+        gap: 5px;
+    }
+}
